@@ -1,0 +1,927 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Get cheap auto insurance quotes in Texas. Compare rates from top insurers and save up to $500 annually. Fast, free & reliable quotes in minutes.">
+    <meta name="keywords" content="cheap auto insurance quotes texas, cheap insurance quote texas online, auto insurance quotes in texas">
+    <title>Cheap Auto Insurance Quotes Texas | Compare & Save</title>
+    
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="Cheap Auto Insurance Quotes Texas | Compare & Save">
+    <meta property="og:description" content="Get cheap auto insurance quotes in Texas. Compare rates from top insurers and save up to $500 annually.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://texasinsurancequotes.com">
+    
+    <!-- Schema Markup -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Texas Insurance Quotes",
+      "url": "https://texasinsurancequotes.com",
+      "logo": "https://texasinsurancequotes.com/logo.png",
+      "description": "Compare cheap auto insurance quotes in Texas from top providers",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "US",
+        "addressRegion": "TX"
+      }
+    }
+    </script>
+    
+    <style>
+        /* CSS will be embedded for GitHub Pages compatibility */
+        :root {
+            --primary-blue: #1a4f8c;
+            --secondary-blue: #2c6cb0;
+            --light-blue: #e6f2ff;
+            --accent: #ff6b00;
+            --white: #ffffff;
+            --gray: #f5f5f5;
+            --dark-gray: #333333;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+        
+        body {
+            line-height: 1.6;
+            color: var(--dark-gray);
+            background-color: var(--white);
+        }
+        
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        /* Header Styles */
+        header {
+            background-color: var(--white);
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        
+        .header-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 0;
+        }
+        
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: var(--primary-blue);
+        }
+        
+        .logo span {
+            color: var(--accent);
+        }
+        
+        nav ul {
+            display: flex;
+            list-style: none;
+        }
+        
+        nav ul li {
+            margin-left: 20px;
+        }
+        
+        nav ul li a {
+            text-decoration: none;
+            color: var(--dark-gray);
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+        
+        nav ul li a:hover {
+            color: var(--primary-blue);
+        }
+        
+        .mobile-menu-btn {
+            display: none;
+            background: none;
+            border: none;
+            font-size: 24px;
+            cursor: pointer;
+            color: var(--primary-blue);
+        }
+        
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(rgba(26, 79, 140, 0.8), rgba(26, 79, 140, 0.9)), url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100"><path d="M0,0 L100,0 L100,100 L0,100 Z" fill="%231a4f8c"/><path d="M0,0 L100,100 M100,0 L0,100" stroke="%232c6cb0" stroke-width="2"/></svg>');
+            background-size: cover;
+            background-position: center;
+            color: var(--white);
+            padding: 80px 0;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .hero-content {
+            max-width: 800px;
+            margin: 0 auto;
+            position: relative;
+            z-index: 2;
+        }
+        
+        .hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            line-height: 1.2;
+        }
+        
+        .hero p {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+        }
+        
+        /* Quote Form */
+        .quote-form {
+            background-color: var(--white);
+            border-radius: 8px;
+            padding: 30px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            max-width: 500px;
+            margin: 0 auto;
+        }
+        
+        .form-group {
+            margin-bottom: 20px;
+        }
+        
+        .form-group label {
+            display: block;
+            margin-bottom: 8px;
+            color: var(--dark-gray);
+            font-weight: 500;
+        }
+        
+        .form-group input, .form-group select {
+            width: 100%;
+            padding: 12px 15px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 16px;
+        }
+        
+        .btn {
+            display: inline-block;
+            background-color: var(--accent);
+            color: var(--white);
+            padding: 12px 25px;
+            border: none;
+            border-radius: 4px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            text-decoration: none;
+            text-align: center;
+        }
+        
+        .btn:hover {
+            background-color: #e55a00;
+        }
+        
+        .btn-block {
+            display: block;
+            width: 100%;
+        }
+        
+        /* Trust Indicators */
+        .trust-section {
+            padding: 50px 0;
+            background-color: var(--gray);
+            text-align: center;
+        }
+        
+        .trust-badges {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 30px;
+            margin-top: 30px;
+        }
+        
+        .badge {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            max-width: 150px;
+        }
+        
+        .badge i {
+            font-size: 40px;
+            color: var(--primary-blue);
+            margin-bottom: 10px;
+        }
+        
+        /* Features Section */
+        .features {
+            padding: 80px 0;
+        }
+        
+        .section-title {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+        
+        .section-title h2 {
+            font-size: 2rem;
+            color: var(--primary-blue);
+            margin-bottom: 15px;
+        }
+        
+        .section-title p {
+            color: #666;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+        
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+        
+        .feature-card {
+            background-color: var(--white);
+            border-radius: 8px;
+            padding: 30px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+            transition: transform 0.3s;
+        }
+        
+        .feature-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .feature-card h3 {
+            font-size: 1.3rem;
+            color: var(--primary-blue);
+            margin-bottom: 15px;
+        }
+        
+        /* Reviews Section */
+        .reviews {
+            padding: 80px 0;
+            background-color: var(--light-blue);
+        }
+        
+        .reviews-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+        
+        .review-card {
+            background-color: var(--white);
+            border-radius: 8px;
+            padding: 30px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+        }
+        
+        .review-header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+        
+        .review-avatar {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background-color: var(--primary-blue);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--white);
+            font-weight: bold;
+            margin-right: 15px;
+        }
+        
+        .review-stars {
+            color: #ffc107;
+            margin-bottom: 10px;
+        }
+        
+        /* Comparison Table */
+        .comparison {
+            padding: 80px 0;
+        }
+        
+        .comparison-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 30px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+        }
+        
+        .comparison-table th, .comparison-table td {
+            padding: 15px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        
+        .comparison-table th {
+            background-color: var(--primary-blue);
+            color: var(--white);
+        }
+        
+        .comparison-table tr:nth-child(even) {
+            background-color: var(--gray);
+        }
+        
+        /* FAQ Section */
+        .faq {
+            padding: 80px 0;
+            background-color: var(--gray);
+        }
+        
+        .faq-item {
+            margin-bottom: 20px;
+            background-color: var(--white);
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.05);
+        }
+        
+        .faq-question {
+            padding: 20px;
+            background-color: var(--light-blue);
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-weight: bold;
+        }
+        
+        .faq-answer {
+            padding: 0 20px;
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s, padding 0.3s;
+        }
+        
+        .faq-answer.active {
+            padding: 20px;
+            max-height: 500px;
+        }
+        
+        /* Footer */
+        footer {
+            background-color: var(--dark-gray);
+            color: var(--white);
+            padding: 60px 0 20px;
+        }
+        
+        .footer-content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 40px;
+            margin-bottom: 40px;
+        }
+        
+        .footer-column h3 {
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+            color: var(--white);
+        }
+        
+        .footer-links {
+            list-style: none;
+        }
+        
+        .footer-links li {
+            margin-bottom: 10px;
+        }
+        
+        .footer-links a {
+            color: #ccc;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        
+        .footer-links a:hover {
+            color: var(--white);
+        }
+        
+        .footer-bottom {
+            text-align: center;
+            padding-top: 20px;
+            border-top: 1px solid #444;
+            font-size: 0.9rem;
+            color: #999;
+        }
+        
+        /* Cookie Consent */
+        .cookie-consent {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background-color: var(--dark-gray);
+            color: var(--white);
+            padding: 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            z-index: 1001;
+            transform: translateY(100%);
+            transition: transform 0.3s;
+        }
+        
+        .cookie-consent.active {
+            transform: translateY(0);
+        }
+        
+        .cookie-consent p {
+            margin-right: 20px;
+        }
+        
+        .cookie-btn {
+            background-color: var(--accent);
+            color: var(--white);
+            border: none;
+            padding: 8px 15px;
+            border-radius: 4px;
+            cursor: pointer;
+            white-space: nowrap;
+        }
+        
+        /* Scroll to Top Button */
+        .scroll-top {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: var(--primary-blue);
+            color: var(--white);
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.3s;
+            z-index: 999;
+        }
+        
+        .scroll-top.active {
+            opacity: 1;
+            visibility: visible;
+        }
+        
+        /* Responsive Styles */
+        @media (max-width: 768px) {
+            .header-container {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            
+            nav {
+                width: 100%;
+                margin-top: 15px;
+                display: none;
+            }
+            
+            nav.active {
+                display: block;
+            }
+            
+            nav ul {
+                flex-direction: column;
+            }
+            
+            nav ul li {
+                margin: 10px 0;
+            }
+            
+            .mobile-menu-btn {
+                display: block;
+                position: absolute;
+                top: 20px;
+                right: 20px;
+            }
+            
+            .hero h1 {
+                font-size: 2rem;
+            }
+            
+            .comparison-table {
+                display: block;
+                overflow-x: auto;
+            }
+            
+            .trust-badges {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            .cookie-consent {
+                flex-direction: column;
+                text-align: center;
+            }
+            
+            .cookie-consent p {
+                margin-right: 0;
+                margin-bottom: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container header-container">
+            <div class="logo">Texas<span>Insurance</span></div>
+            <button class="mobile-menu-btn">☰</button>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="best-insurance-for-students-texas.html">Students</a></li>
+                    <li><a href="cheap-insurance-for-new-drivers-texas.html">New Drivers</a></li>
+                    <li><a href="compare-auto-insurance-texas.html">Compare</a></li>
+                    <li><a href="insurance-faqs-texas.html">FAQs</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container hero-content">
+            <h1>Get Cheap Auto Insurance Quotes in Texas – Fast, Free & Reliable</h1>
+            <p>Compare rates from top insurers in Texas and save up to $500 annually</p>
+            
+            <div class="quote-form">
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" placeholder="Enter your full name">
+                </div>
+                <div class="form-group">
+                    <label for="zip">Zip Code</label>
+                    <input type="text" id="zip" placeholder="Enter your TX zip code">
+                </div>
+                <div class="form-group">
+                    <label for="car">Car Model</label>
+                    <input type="text" id="car" placeholder="Enter your car model">
+                </div>
+                <button class="btn btn-block">Get Your Quote</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trust Indicators -->
+    <section class="trust-section">
+        <div class="container">
+            <h2>Trusted by Thousands of Texans</h2>
+            <div class="trust-badges">
+                <div class="badge">
+                    <i>✓</i>
+                    <span>Secure & Confidential</span>
+                </div>
+                <div class="badge">
+                    <i>★</i>
+                    <span>4.8/5 Customer Rating</span>
+                </div>
+                <div class="badge">
+                    <i>⏱</i>
+                    <span>Quotes in 2 Minutes</span>
+                </div>
+                <div class="badge">
+                    <i>💲</i>
+                    <span>Save Up To $500</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="container">
+            <div class="section-title">
+                <h2>Why Compare Auto Insurance in Texas?</h2>
+                <p>Texas drivers can save significantly by comparing rates from multiple providers</p>
+            </div>
+            
+            <div class="features-grid">
+                <div class="feature-card">
+                    <h3>Save Money</h3>
+                    <p>The average Texas driver saves $489 per year by comparing insurance quotes online. With our service, you can compare rates from top providers in minutes.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Texas-Specific Coverage</h3>
+                    <p>We understand Texas insurance requirements, including the 30/60/25 liability coverage minimums and options for comprehensive coverage against hail and flood damage.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Quick & Easy Process</h3>
+                    <p>Our streamlined process takes just minutes to complete. Enter your information once and receive multiple quotes from trusted Texas insurance providers.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section class="reviews">
+        <div class="container">
+            <div class="section-title">
+                <h2>What Texas Drivers Are Saying</h2>
+                <p>Real reviews from real Texans who saved on their auto insurance</p>
+            </div>
+            
+            <div class="reviews-grid">
+                <div class="review-card">
+                    <div class="review-header">
+                        <div class="review-avatar">MJ</div>
+                        <div>
+                            <h4>Maria J.</h4>
+                            <p>Houston, TX</p>
+                        </div>
+                    </div>
+                    <div class="review-stars">★★★★★</div>
+                    <p>"I was paying $180/month for my car insurance. After using this service, I found a better policy for just $112/month. That's over $800 in savings per year!"</p>
+                </div>
+                
+                <div class="review-card">
+                    <div class="review-header">
+                        <div class="review-avatar">RS</div>
+                        <div>
+                            <h4>Robert S.</h4>
+                            <p>Dallas, TX</p>
+                        </div>
+                    </div>
+                    <div class="review-stars">★★★★★</div>
+                    <p>"As a new driver in Texas, I was worried about high insurance costs. This site helped me find affordable coverage that met all state requirements. The process was incredibly simple."</p>
+                </div>
+                
+                <div class="review-card">
+                    <div class="review-header">
+                        <div class="review-avatar">TL</div>
+                        <div>
+                            <h4>Tiffany L.</h4>
+                            <p>San Antonio, TX</p>
+                        </div>
+                    </div>
+                    <div class="review-stars">★★★★☆</div>
+                    <p>"I've been with the same insurance company for 10 years. Decided to check if I could get a better rate and saved $45/month on better coverage. Wish I had done this sooner!"</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Comparison Table -->
+    <section class="comparison">
+        <div class="container">
+            <div class="section-title">
+                <h2>Texas Auto Insurance Company Comparison</h2>
+                <p>Average monthly rates for Texas drivers with clean records</p>
+            </div>
+            
+            <table class="comparison-table">
+                <thead>
+                    <tr>
+                        <th>Insurance Provider</th>
+                        <th>Minimum Coverage</th>
+                        <th>Full Coverage</th>
+                        <th>Customer Rating</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>State Farm</td>
+                        <td>$89/month</td>
+                        <td>$142/month</td>
+                        <td>4.6/5</td>
+                    </tr>
+                    <tr>
+                        <td>GEICO</td>
+                        <td>$76/month</td>
+                        <td>$128/month</td>
+                        <td>4.5/5</td>
+                    </tr>
+                    <tr>
+                        <td>Progressive</td>
+                        <td>$82/month</td>
+                        <td>$135/month</td>
+                        <td>4.4/5</td>
+                    </tr>
+                    <tr>
+                        <td>Allstate</td>
+                        <td>$95/month</td>
+                        <td>$155/month</td>
+                        <td>4.3/5</td>
+                    </tr>
+                    <tr>
+                        <td>Farmers</td>
+                        <td>$91/month</td>
+                        <td>$148/month</td>
+                        <td>4.2/5</td>
+                    </tr>
+                </tbody>
+            </table>
+            
+            <div style="text-align: center; margin-top: 30px;">
+                <a href="compare-auto-insurance-texas.html" class="btn">Compare More Providers</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq">
+        <div class="container">
+            <div class="section-title">
+                <h2>Frequently Asked Questions</h2>
+                <p>Common questions about auto insurance in Texas</p>
+            </div>
+            
+            <div class="faq-list">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        What is the minimum auto insurance requirement in Texas?
+                        <span>+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Texas requires drivers to carry at least 30/60/25 coverage: $30,000 for bodily injury per person, $60,000 for bodily injury per accident, and $25,000 for property damage. However, many experts recommend higher limits for better protection.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        How can I get the cheapest auto insurance in Texas?
+                        <span>+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>To find the cheapest auto insurance in Texas, compare quotes from multiple providers, maintain a clean driving record, consider raising your deductible, ask about discounts (safe driver, multi-policy, good student), and review your coverage annually.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        What factors affect my Texas auto insurance rates?
+                        <span>+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Texas auto insurance rates are influenced by your driving record, age, location, credit history, type of vehicle, annual mileage, coverage limits, and deductibles. Urban areas like Houston and Dallas typically have higher rates than rural areas.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        Is Texas a no-fault state for auto insurance?
+                        <span>+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>No, Texas is an at-fault state. This means the driver who causes an accident is responsible for covering the damages. Texas drivers can sue the at-fault driver for expenses beyond what insurance covers.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div style="text-align: center; margin-top: 30px;">
+                <a href="insurance-faqs-texas.html" class="btn">View All FAQs</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>Texas Insurance Quotes</h3>
+                    <p>Helping Texans find affordable auto insurance since 2015. Compare rates from top providers and save.</p>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="best-insurance-for-students-texas.html">Insurance for Students</a></li>
+                        <li><a href="cheap-insurance-for-new-drivers-texas.html">Insurance for New Drivers</a></li>
+                        <li><a href="compare-auto-insurance-texas.html">Compare Insurance</a></li>
+                        <li><a href="insurance-faqs-texas.html">FAQs</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Contact Info</h3>
+                    <ul class="footer-links">
+                        <li>Email: info@texasinsurancequotes.com</li>
+                        <li>Phone: (512) 555-INSURANCE</li>
+                        <li>Address: 123 Insurance Way, Austin, TX 78701</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2023 Texas Insurance Quotes. All rights reserved.</p>
+                <p>TexasInsuranceQuotes.com is a free online resource that offers valuable content and comparison services. We are not an insurance provider or broker. Our service is always free with no obligation.</p>
+                <p>This site is for informational purposes only. Any information provided should be verified with the respective insurance provider.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Cookie Consent -->
+    <div class="cookie-consent">
+        <p>We use cookies to enhance your experience. By continuing to visit this site you agree to our use of cookies.</p>
+        <button class="cookie-btn">Accept</button>
+    </div>
+
+    <!-- Scroll to Top Button -->
+    <div class="scroll-top">↑</div>
+
+    <script>
+        // Mobile Menu Toggle
+        document.querySelector('.mobile-menu-btn').addEventListener('click', function() {
+            document.querySelector('nav').classList.toggle('active');
+        });
+
+        // FAQ Accordion
+        document.querySelectorAll('.faq-question').forEach(question => {
+            question.addEventListener('click', () => {
+                const answer = question.nextElementSibling;
+                const isActive = answer.classList.contains('active');
+                
+                // Close all answers
+                document.querySelectorAll('.faq-answer').forEach(ans => {
+                    ans.classList.remove('active');
+                });
+                
+                // Toggle current answer if it wasn't active
+                if (!isActive) {
+                    answer.classList.add('active');
+                }
+            });
+        });
+
+        // Scroll to Top Button
+        const scrollTopBtn = document.querySelector('.scroll-top');
+        
+        window.addEventListener('scroll', () => {
+            if (window.pageYOffset > 300) {
+                scrollTopBtn.classList.add('active');
+            } else {
+                scrollTopBtn.classList.remove('active');
+            }
+        });
+        
+        scrollTopBtn.addEventListener('click', () => {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+
+        // Cookie Consent
+        const cookieConsent = document.querySelector('.cookie-consent');
+        const cookieBtn = document.querySelector('.cookie-btn');
+        
+        // Check if user has already accepted cookies
+        if (!localStorage.getItem('cookiesAccepted')) {
+            setTimeout(() => {
+                cookieConsent.classList.add('active');
+            }, 2000);
+        }
+        
+        cookieBtn.addEventListener('click', () => {
+            cookieConsent.classList.remove('active');
+            localStorage.setItem('cookiesAccepted', 'true');
+        });
+
+        // Form Submission (UI only - no backend)
+        document.querySelector('.quote-form .btn').addEventListener('click', function(e) {
+            e.preventDefault();
+            const name = document.getElementById('name').value;
+            const zip = document.getElementById('zip').value;
+            const car = document.getElementById('car').value;
+            
+            if (!name || !zip || !car) {
+                alert('Please fill in all fields to get your quote.');
+                return;
+            }
+            
+            // Simulate processing
+            this.textContent = 'Getting Quotes...';
+            this.disabled = true;
+            
+            setTimeout(() => {
+                alert('Thank you! Your quotes are being prepared. You will be redirected to our comparison page.');
+                window.location.href = 'compare-auto-insurance-texas.html';
+            }, 1500);
+        });
+    </script>
+</body>
+</html>
